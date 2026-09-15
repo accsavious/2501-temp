@@ -1,0 +1,33 @@
+Median
+12 15 18 20  21 |24| 25 27 30 34 58
+
+quartiles
+        Q1	  Q2         Q3
+      25th p     50thp      75thp
+12 15 18|  20 21 24| 25 27 30| 34 58
+
+IQR is Q3 - Q1 = 12 
+
+lower fence is 0
+uppper is 48
+
+what would you use to
+Compare how spread out exam scores are between 2 classes
+A histogram
+the IQR
+Standard deviation how much each value differs from the average
+Variance
+
+To find the difference between the youngest and oldest person?
+Range! Highest value and lowest
+
+Describe the middle 50% of house prices?
+Interquartile range (IQR)
+
+Identify unusally high or low values in delivery times?
+Find the outliers with the upper and lower fence 
+Upper Fence Q1 - 1.5*IQR
+Lower Fence Q3 + 1.5*IQR
+
+Describe overall shape of customer wait times?
+Histogram

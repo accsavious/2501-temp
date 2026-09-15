@@ -1,0 +1,132 @@
+Dana analytics, BI, Data Science
+
+Data analytics: seeks to answer specific questions
+Business intelligence monitors performance
+Data science: builds predictive models
+__________________
+Data analysis
+turning business problem into an answerable question
+Clarity is key
+Systemic use of available data to answer a question
+no data means its only philosophy
+The data should support decision making
+__________________
+Data analytics is the process of examination, cleaning, transforming,
+and interpreting data to discover useful information, identify patterns
+and support decision-making
+
+Terms
+Descriptive Analytics - What happened?
+Diagnostic Analytics - Why did it happen?
+Predictive Analytics - What is likely to happen?
+Prescriptive Analytics - What should we do?
+
+Data visualization - Representing data graphicall to communicate
+charts, mas, graphs, dashboards and other visual elements
+Makes it easier to compare data, see trends and other relationships
+
+Types of charts
+bar		Compares categories
+line		tracks trends over time
+pie		shows proportions of a whole
+histogram	shows distribution of numerical data 
+(bar chart without spaces between values)
+scatter plot	shows relationship between two values
+map		shows geographical patterns
+
+data analyst 
+KPIs = key performance indicator
+
+Data engineer
+build data pipelines
+
+data science
+Multidisciplinary skill involving combining stats, math, programming,
+and domain knowledge to analyze large amounts of data
+data scientists collect, cleans, organizes, and analyzes data
+communicates findings
+and builds predictive models
+
+Key components of data science
+math
+programming - Py, R, SQL
+machine learning
+data vis: with tableaus, power bi, matplotlib
+big data tech hadoop and spark
+
+applications
+healthcare
+finance
+E-commerce
+Marketing
+Transportation
+
+____
+Stages of the data science lifecycle
+
+Problem definition
+Data collection
+Data prep
+Exploratory data analysis
+Modeling
+Evaluation
+Deployment
+Monitoring & maintenance
+
+What makes a question more effective
+it needs to be
+measurable
+actionable
+aligned with goals
+supported by available data
+
+Scenarios
+Does it have a metric, does it support a decision, match scenario
+__________
+Data types
+
+Categorical a labeled value - string
+Pizza example - what topping do you like, restaurant type
+
+Numeric - numbers, int/float
+Pizza example - how many slices, prices
+
+Ordinal - where order matters, a rating?
+Pizza example - how spicy is it, restaurant rating?
+
+Levels of measurement
+Nominal - a label, similar to categorical - region, product type
+
+Ordinal - Ranked order - satisfaction level, priority
+The value between rankings might not be constant
+
+Interval - equal spacing between values, but zero doesnt mean none
+temperature, time of day, years
+the amount of value between times is consistant
+0 degrees doesnt mean no temperature at all
+
+Ratio - "regular numbers" with true zero
+Revenue, time spent, file size
+zero revenue means no money
+
+Data science terms
+Population vs samples
+population: the entire group
+sample: a subset of the population that we actually collect data from
+
+Statistics vs parameters
+Parameter a value that descrives a characteristic of an entire population
+statistic a value calculated from a sample
+
+Parameter from population
+Statistic from sample
+
+
+program - categorical
+Year - ratio
+satisfaction - ordinal
+study hours ratio
+GPA - Ordinal
+Residence Categorical 
+Assignments complete - ratio
+

@@ -1,0 +1,77 @@
+
+
+Range
+Sensitive to extreemes
+
+QUARTILES AND PERCENTILES
+
+Quartiles
+order your data and cutting it into 4 chunks
+the center should be the median, and distribute your values
+by instance
+25th percentile is the first quarter of the values
+50th percentile is the first two quartes
+75th percentile
+
+Percentiles - where something is relative to others
+pth percentiles is a value such that at least p percent of the items
+take on this value or less
+If you are in the 80th percentile, there are 20% with a higher value
+
+IQR - interquartile range
+difference between quarters 1 and 3
+ignores lower and upper ends.
+takes a snapshot of the middle values
+
+variance
+measure how far observations are from the mean using
+-squared differences
+
+how to calc
+set 4 4 6 6 7.6 8
+1 find the mean 6
+2 find how far (the difference) each observation is from the mean,
+2 2 2 0 0 1.5
+4 4 4 0 0 2.25 -> 2.375
+
+Standard deviation SD
+typical difference of observations from the mean
+-> variance is the average squared diff.
+standard dev is the suqare root of the vairance
+
+small SD means values are tightly clustered
+
+Histogram
+similar to a bar chart - which compare different groupings
+Histograms are grouping observations into ranges (bins) and show us how many values are in each range
+- lets us see the shape of the data
+
+each bin has a range of values that the values fit into
+each bin shows the number of values that fall into it
+
+Distribution shapes
+
+Normal distribution - (bell curve)
+symmetrical, where observations cluster around the center
+and thin out toward the extreme
+
+Center would be the median
+heights in a population are approximately normal
+right skewed - a long tail on the right
+
+Bimodal
+Two distinct peaks
+
+Lognormal
+A right-skewed distribution
+the logarithm of the values is normally distributed
+
+
+OUTLIERS
+an observation that is unusually far from the rest
+Commonly identified with the 1.5 IQR rule
+Interquarterly range
+lower fence is Q1 - 1.5 * IQR
+Upper fence is Q1 + 1.5 * IQR
+
+
