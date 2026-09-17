@@ -1,0 +1,101 @@
+Data wrangling: cleaning and transforming raw data into a better format
+Data analysis: collecting, manipulating, examining
+Data visualization: representing the data graphically
+
+Jobs
+Data analysis - Turn business problem into answerable question
+Lesson 2 - Page 10
+Business intelligence - monitors performance
+Data Science - builds predictive models
+
+what makes a question effective?
+measurable, actionable, aligned wit goals, supported by available data
+
+Cleaning data - removing duplicates, errors, identifying outliers
+
+Exploratory analysis - Examine dataset and summarize its main characteristics
+
+Data science lifescycle
+read more in 26-09-03
+
+Data types
+Categorical - a label value - like pizza toppings
+Numerical - number - how many pizza slices?
+Ordinal - where order matters - What do you rate the pizza out of 10?
+
+Levels of measurement
+Nominal - Labels - region, type of product, browser used, pizza type
+Orginal - ranked order - pizza rating out of 10
+Interval - equal value between values, but zero doesnt mean none - temperature, year
+Ratio - Regular numbers with true zero - revenue, time spent, file size
+
+Data science terms
+Population vs samples
+population: the entire group
+sample: a subset of the population that we actually collect data from
+
+Statistics vs parameters
+Parameter a value that descrives a characteristic of an entire population
+statistic a value calculated from a sample
+
+Parameter from population
+
+SUMMARY STATS - condense large datasets, easily compare groups, easy to communicate
+	establish baseline, usable in decision making
+Mean - take sum, divide by number of options
+Median - the center value. if two values tie, add them together and divide by 2
+Mode - the most common value - non-mathematical - you can use it with categorical data,
+	there can be more than one mode
+
+Outliers - Extreme values can potentially skew data
+	High-low split - the median is split between a comparably small and large value
+HOW TO IDENTIFY - using the 1.5 IQR rule
+Items below the lower fence
+or above the upper fence are outliers
+lower fence = Q1 - 1.5*IQR
+upper fence = Q3 + 1.5*IQR
+
+
+Quartiles & percentiles - this percent or this many quarters of the values are at or
+lower than this value
+values at the first, second and third quarter of the chart
+the second quartile is the median and is the 50th percentile
+first quartile is the number 1/4th in the list and the 25th percentile
+third quartiles is the number 3/4ths in the list and the 75th percentile
+we dont consider the fourth quarter value
+
+
+SPREAD
+range - difference between the highest and lowest values
+
+IQR - interquartile range - Difference between the Q1 value and the Q3 value
+
+Variance - how far each observation is from the mean - calculated like:
+	for each value: total += (value - mean)^2.
+	then total/number_of_items
+	set is 1 3 4 6 7, mean is 4.2
+	10.24, 1.44, 0.04, 3.24, 7.84 summed to 22.8 divided by n or 4.2
+	variance is 4.56
+	If its from the population, you divide by mean
+	If its from a sample, you may divide by mean -1 (ask instructor first)
+	
+
+standard deviation - the typical difference of observations from the mean
+	its the square root of the variance
+	from the last value, standard dev is 2.135
+	This value is in squared units
+
+Distribution shapes
+Normal: a bell curbe
+Right/left skewed: lots of observations in low/high values,
+Bimodal: values accumulate at two peaks
+Lognormal: its right skewed, but a logarithm of the values is normally distributed
+
+
+DATA PORTALS - searchable, documented, centralized dataset catalogue, intended for reuse
+Its not raw API, live dashboards or perfectly clean data
+
+Metadata - Should include title & description, Source/publisher, last update,
+	fields/variables, license
+It should rell us: what the data is, when its from, who created it, what each field means
+

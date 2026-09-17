@@ -1,0 +1,78 @@
+Quiz:
+75 mins, maybe 20 questions
+some multiple choice, some written, 
+Open book
+
+Lecture notes
+Open data - data open for public use
+
+Define
+range difference between highest and lowest value
+IQR - Interqartile range difference between Q1 and Q3
+
+Variance - how to calculate: Find the mean
+find the difference of each value from the mean
+take the average of those values
+
+Standard deviation the square root of variance
+The typical difference between values
+
+Quartiles - and percentiles: the three values at quarterly points
+25% 50% and 75% points
+50% is the median
+
+Histogram - a gapless bar chart, it organizes instances into intervals called bins
+it shows the number of values in each bin
+
+
+Outlier - an unusally large or small value
+Identified with the 1.5 IQR rule
+Take Q1 -1.5*IQR and Q3 + 1.5*IQR
+these form the lower and upper bound 
+The represent an error, or an extreme
+
+
+DATA PORTALS
+Data is accessed:
+internally
+through an api
+sometimes already collected in an external structured way
+
+How do they support data science?
+good for: evidence based decision making
+Benchmarking - like market trends
+Context and validation - demographics and policy impacts
+
+Common file formats for open data
+CSV Spreadsheet JSON
+Metadata tells us
+What is the data
+when is it from
+who created it
+what each field means
+
+
+breakout room
+
+Topic - 
+dataset sources
+record the source, update date and key variables
+why is it useful?
+1 https://data.edmonton.ca/Monitoring-and-Data-Collection/Daily-Pedestrian-and-Bike-Counts/sw7k-ptx8/about_data
+date update 2026 *today
+tracks cyclists by area
+can give an idea how m
+2 https://teams.public.onecdn.static.microsoft/evergreen-assets/safelinks/2/atp-safelinks.html
+3
+
+Dataset eval checklist
+Purpose & relevance
+credibility
+Timeliness - is it relevant to the current date? is it outdated?
+Granularity - Is the level of detail appropriate
+Field clarity - Do you understand what each variable actually means
+Completeness - are important values missing?
+Consistency - is the data internally consistent
+Bias & limitation - what does the dataset not capture?
+Accessibility & Format - is the data usable with available tools?
+Legal & ethical - are there restrictions on use or sharing?
