@@ -1,0 +1,9 @@
+
+
+z-score is the number of standard deviations away from the mean
+calc like
+value = df["Year"].iloc[0]
+mean = df["Year"].mean()
+std = df["Year"].std()
+z = (value - mean) /std
+z
