@@ -1,0 +1,28 @@
+there are dataframe methods for cleaning data
+
+check for columns that have null values
+df.isna()
+how many nulls per column
+df.isna().sum()
+
+We can see how many fit by math
+df[df["Neighbourhood Number"] > 6000].shape
+
+We can replace those null values with our own
+chose the dictionary value and set it like this
+df["Description"] = df["Description"].fillna("Uknown")
+
+Or replace their values using function
+df["end_date"] = df["end_date"].fillna(df["start_date"].max())
+
+And we can rename columns
+df = df.rename(columns = {"Effective Start Date": 'start_date', "Effective End Date": "end_date" })
+
+
+
+get the unique values from a column
+df["Civic Ward"].unique() - returns as arrays
+
+
+and unique values with their counts
+df["Civic Ward"].value_counts()

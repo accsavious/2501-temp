@@ -1,0 +1,23 @@
+Topics
+1. data cleaning & wrangling
+2. Common issues in datasets
+data structures? (no)
+3. Apply loops or vectorized operations to clean data
+4. Leverage open-source tools to clean and reshape data
+5. combine data from datasets
+
+
+1
+Validation: too strict: valid edge cases are excluses
+Duplicated Values
+Outdated information
+Inconsistent formats
+
+Other steps
+rename columns: Total Sales -> total_sales
+Imputation: Fill missing age with the median, or missing category with "uknown"
+
+Normalization: Measure based on z score
+Transformation: Log-transform skewed prices, one-hot encode "city", extract month from date
+
+
