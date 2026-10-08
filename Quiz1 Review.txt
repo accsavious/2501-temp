@@ -1,3 +1,12 @@
+Q
+10
+
+Can use: slides, notes, the google, ask teacher
+
+cant use: gen ai
+asking other people
+
+
 Data wrangling: cleaning and transforming raw data into a better format
 Data analysis: collecting, manipulating, examining
 Data visualization: representing the data graphically
