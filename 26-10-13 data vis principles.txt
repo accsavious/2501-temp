@@ -1,0 +1,43 @@
+Principle 1:
+select the right visual for 
+your data
+your message
+your audience
+
+How to tell: Whats interesting? What question are we answering?
+Do you show absolute values, rate of change?
+
+Common industry tools
+Tableau, PowerBi, excel, R, Python
+
+Principle 2 :
+Graphics should reveal data
+Rather, dont use graphics that confuse. 
+
+declutter the data. No redundant labels, remove unneccesary colors
+remove special effects
+
+Principle 5: pie chart bad
+
+Seperate combined charts into readable charts
+
+Design rules:
+Simplify
+Guide: guide user, use labels
+Visual: pick the best chart
+Color: does color have the same meaning
+
+color theory
+Team brainstorm the feelings with color: Compassion, romance, love, calming, whimsy
+
+Are there physical effects on people? or other?: Eyecatching, cute, appetising
+
+Cultural meanings?: Womanhood, feminism
+
+What is it best used for?: Packaging, glamor
+
+Find/make example!
+
+Pink
+
+
