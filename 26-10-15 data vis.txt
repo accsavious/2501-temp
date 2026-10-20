@@ -1,0 +1,92 @@
+Matching data types to chart types
+
+continuous data describes a variable that can take any value within a range.
+can have decimal places. like a float
+temperature, height, elapsed time
+
+
+discrete data takes distinct values
+number of whole things, or people
+Only whole numbers, like an integer
+
+real world continuous measurments are often rounded
+
+Normal distributions
+68% are within 1 standard deviation
+95% are within 2 sd
+99.7% within 3 sd
+
+you can assume a normal distribution for large datasets, but not always
+
+Other continuous distributions
+Uniform distributions: everything is equally likely
+lognormal distributions: sharp left peak and long right tail
+
+exponential distribution
+starts at max, and slides smoothly down towards zero, but never meets zero
+
+Real-life examples:
+Adult heights
+Personal incomes, often right skewed
+Delivery times, often right skewed
+Exam scores may be bimodal, if two groups experience different levels of preparation
+
+
+Histogram
+shows frequency of numeric observations within intervals called bins
+good for showing skewedness,
+changing bin width can change the apparent shape
+wide bins can hide detail
+bins must be same width
+
+Box Plot
+How do groups compare
+Summarizes median, quartiles, and potential outliers
+useful for comparing distributions across categories
+
+top of box line is Q3, center line is median,
+bottom of box line is Q1
+
+Line chart
+Generally, how does something change over time
+Great for seeing trends
+connects observations in a meaningful sequence, usually time
+can compare several values
+
+Dont use for thing that dont have a sequence
+
+scatter plots
+Are two numeric variables related?
+Is there a correlation?
+Show paired obserbations for two numeric variables
+
+helps reveal relationship, clusters and unusual observations
+
+
+Picking colors for charts
+generally pick company colors
+
+Sequential palettes
+Use a progression of colors ranging in intensity, light to dark,
+when values have natural order
+
+Diverging palettes
+show two contrasting colour directions around a meaningful midpoint
+
+qualitative palettes
+use distinct colors to distinguish categories 
+
+The job of colour
+Can encode information
+highlight a finding, establish hierarchy,
+Avoid assigning color to every mark when the color has no purpose
+(avoid color barf)
+Use neutral base palette, reserve stronger colour for the most important info
+Keep colour meanings consistent across related charts. If green means good, dont use it for anything else
+Dont use red and green as the only distinct between two important values - Red Green color blindness is a thing
+
+Accessability 
+Dont over-rely on color. Make sure there are more ways to show the info
+
+Check in grayscale to see if the graph is readable
+
